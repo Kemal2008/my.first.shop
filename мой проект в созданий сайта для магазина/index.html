@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore - Главная</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Шапка -->
+    <header class="header">
+        <div class="container">
+            <div class="header__logo">TechStore</div>
+            <nav class="header__nav">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header__icons">
+                <input type="text" placeholder="Поиск...">
+                <a href="#" class="cart">🛒</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Баннер -->
+    <section class="banner">
+        <h1>Лучшие гаджеты для вас!</h1>
+        <p>Скидки до 50% на электронику!</p>
+        <a href="catalog.html" class="btn">Перейти в каталог</a>
+    </section>
+
+    <!-- Категории -->
+    <section class="categories">
+        <h2>Категории товаров</h2>
+        <div class="categories__list">
+            <a href="catalog.html?category=smartphones" class="category">📱 Смартфоны</a>
+            <a href="catalog.html?category=laptops" class="category">💻 Ноутбуки</a>
+            <a href="catalog.html?category=accessories" class="category">🎧 Аксессуары</a>
+        </div>
+    </section>
+
+    <!-- Популярные товары -->
+    <section class="products">
+        <h2>Популярные товары</h2>
+        <div class="products__list">
+            <div class="product">
+                <img src="img/phone.jpg" alt="Смартфон">
+                <p>Смартфон Galaxy X</p>
+                <span>49 990 тг</span>
+                <button>В корзину</button>
+            </div>
+            <div class="product">
+                <img src="img/laptop.jpg" alt="Ноутбук">
+                <p>Ноутбук UltraBook</p>
+                <span>79 990 тг</span>
+                <button>В корзину</button>
+            </div>
+            <div class="product">
+                <img src="img/headphones.jpg" alt="Наушники">
+                <p>Наушники BassPro</p>
+                <span>9 990 тг</span>
+                <button>В корзину</button>
+            </div>
+            <div class="product">
+                <img src="img/phone.jpg" alt="Смартфон">
+                <p>Смартфон Pixel 8</p>
+                <span>59 990 тг</span>
+                <button>В корзину</button>
+            </div>
+            <div class="product">
+                <img src="img/laptop.jpg" alt="Ноутбук">
+                <p>Ноутбук ProBook 360</p>
+                <span>85 000 тг</span>
+                <button>В корзину</button>
+            </div>
+            <div class="product">
+                <img src="img/headphones.jpg" alt="Наушники">
+                <p>Наушники AudioX</p>
+                <span>13 990 тг</span>
+                <button>В корзину</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Новости и акции -->
+    <section class="news">
+        <h2>Новости и акции</h2>
+        <div class="news__list">
+            <div class="news__item">
+                <h3>Скидка 30% на все смартфоны!</h3>
+                <p>До конца месяца при покупке любого смартфона скидка 30%.</p>
+                <a href="catalog.html?category=smartphones" class="btn">Подробнее</a>
+            </div>
+            <div class="news__item">
+                <h3>Бесплатная доставка при заказе от 50 000 тг</h3>
+                <p>Доставим ваш заказ бесплатно при покупке от 50 000 тг.</p>
+                <a href="catalog.html" class="btn">Подробнее</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024 TechStore. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
